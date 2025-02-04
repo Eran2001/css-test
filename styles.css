@@ -7,32 +7,3 @@
 html {
   background-color: grey;
 }
-
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.head {
-  font-size: 4rem;
-  animation-name: rotate;
-  animation-duration: 5s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-}
-
-@keyframes rotate {
-  0% {
-    color: red;
-    scale: 2rem;
-  }
-  50% {
-    color: blue;
-  }
-  100% {
-    color: tomato;
-    transform: rotate(360deg);
-  }
-}
