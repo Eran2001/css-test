@@ -7,38 +7,6 @@
     <title>CSS</title>
   </head>
   <body>
-    <div class="container">
-      <div class="item item-1">
-        <nav class="nav">
-          <h1 class="nav-heading">Logo</h1>
-          <ul class="nav-links">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./services.html">Services</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-          </ul>
-          <button class="btn">Get Started</button>
-        </nav>
-      </div>
-      <div class="item item-2">2</div>
-      <div class="item item-3">
-        <div id="content"></div>
-      </div>
-      <div class="item item-4">4</div>
-    </div>
-
-    <script>
-      function loadHTMLFile(filePath) {
-        fetch(filePath)
-          .then((response) => response.text())
-          .then((htmlContent) => {
-            document.getElementById("content").innerHTML = htmlContent;
-          })
-          .catch((error) =>
-            console.error("Error loading the HTML file:", error)
-          );
-      }
-      loadHTMLFile("./about.html");
-    </script>
+    <h1>Hello</h1>
   </body>
 </html>
