@@ -11,9 +11,12 @@ html {
 
 @keyframes bg-color {
   0% {
-    background-color: brown;
+    background-color: rgb(239, 86, 167);
+  }
+  50% {
+    background-color: rgb(230, 35, 158);
   }
   100% {
-    background-color: rgb(220, 1, 125);
+    background-color: rgb(123, 4, 71);
   }
 }
