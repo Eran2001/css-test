@@ -6,4 +6,14 @@
 
 html {
   background-color: grey;
+  animation: bg-color 3s ease-in-out 0.2s infinite alternate;
+}
+
+@keyframes bg-color {
+  0% {
+    background-color: brown;
+  }
+  100% {
+    background-color: rgb(220, 1, 125);
+  }
 }
