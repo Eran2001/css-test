@@ -12,12 +12,10 @@
     </div>
 
     <script>
-      const numbers = [1, 2, 3, 4, 5];
+      const user = { name: "Alice", address: { city: "NY" } };
 
-      const newNumbers = numbers.reduce((acc, num) => {
-        return acc + num;
-      }, 0);
-      console.log(newNumbers);
+      console.log(user.address.city);
+      console.log(user?.company?.name);
     </script>
   </body>
 </html>
