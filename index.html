@@ -12,7 +12,24 @@
     </div>
 
     <script>
-      console.log("Hello");
+      const myPromise = new Promise((resolve, reject) => {
+        setTimeout(() => {
+          let success = true;
+          if (success) {
+            resolve("✔ success");
+          } else {
+            reject("❌ failed");
+          }
+        }, 1000);
+      });
+
+      myPromise
+        .then((message) => {
+          console.log(message);
+        })
+        .catch((message) => {
+          console.log(message);
+        });
     </script>
   </body>
 </html>
